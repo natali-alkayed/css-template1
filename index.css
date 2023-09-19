@@ -1,0 +1,108 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Montserrat:wght@100&family=Overpass:wght@100&display=swap');
+
+body {
+    background-color:  hsl(216, 12%, 8%);
+    width: 1440px;
+    
+  }
+  
+.container {
+    color: hsl(0, 0%, 100%);
+    position: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);;
+    text-align: left;
+    background-color:  hsl(213, 19%, 18%);
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 35px;
+    font-family: 'Overpass', sans-serif;
+    margin-top:75px;
+  }
+  .star-icon {
+    width: 50px; 
+    height: 50px;
+    background-color:  hsl(213, 20%, 23%); 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px; 
+    color: hsl(0, 0%, 100%);    
+    margin-bottom: 50px;
+
+  }
+  .title {
+    margin-bottom: 30px;
+    font-size: 35px;
+
+
+  }
+  
+  .title-words {
+   color: hsl(217, 12%, 63%);
+   margin-bottom: 30px;
+
+  }
+  
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+    font-family: 'Overpass', sans-serif;
+    margin-bottom: 40px;
+
+
+  }
+  
+  .list-item {
+    width: 60px; 
+    height: 60px; 
+    background-color: hsl(213, 20%, 23%); 
+    border-radius: 50%; 
+    color:  hsl(216, 12%, 54%); 
+    font-size: 18px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    cursor: pointer;
+    
+  }
+  
+  .list-item:hover {
+    background-color: hsl(34, 80%, 34%);   
+  }
+  
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    font-family: 'Overpass', sans-serif;
+
+
+  }
+  
+  .button {
+    background-color: hsl(25, 97%, 53%);
+  border: none;
+  border-radius: 25px;
+  color: hsl(0, 0%, 100%);
+  font-size: 18px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width:500px
+
+
+  }
+  
+  .button:hover {
+    background-color: hsl(25, 97%, 45%); 
+  }
+  
+  
